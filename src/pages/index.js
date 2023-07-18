@@ -34,6 +34,14 @@ export default function Home() {
           <div className={styles.session}>
             <Subtitle>Promoções</Subtitle>      {/* CHAVE "CHILDREN"*/}
             <div className={styles.salecontainer}>
+            <SaleCard 
+                image = {'god-of-war.jpg'}
+                fullPrice='209,99'
+                discountPrice='20,99'
+                discount='90%'
+                onAdd={() =>
+                  handleAddProduct ({ name:'God of War: Ragnarok', price:20.99, image: 'god-of-war.jpg'})}
+                  />
               <SaleCard 
                 image = {'league-of-legends.jpg'}
                 fullPrice='59,99'
@@ -43,6 +51,14 @@ export default function Home() {
                   handleAddProduct ({ name:'League of Legends', price:11.99, image: 'league-of-legends.jpg'})}
               />
               <SaleCard 
+                image = {'cyberpunk2077.jpg'}
+                fullPrice='149,99'
+                discountPrice='44,99'
+                discount='70%'
+                onAdd={() =>
+                  handleAddProduct ({ name:'Cyberpunk 2077', price:44.99, image: 'cyberpunk2077.jpg'})}
+                  />
+              <SaleCard 
                 image = {'dota-2.jpg'}
                 fullPrice='49,99'
                 discountPrice='19,99'
@@ -50,6 +66,14 @@ export default function Home() {
                 onAdd={() =>
                   handleAddProduct ({ name:'Dota 2', price:19.99, image: 'dota-2.jpg'})}
               />
+              <SaleCard 
+                image = {'call-of-duty.jpg'}
+                fullPrice='179,99'
+                discountPrice='80,99'
+                discount='55%'
+                onAdd={() =>
+                  handleAddProduct ({ name:'Call of Duty 2024', price:80.99, image: 'call-of-duty.jpg'})}
+                  />
               <SaleCard 
                 image = {'valorant.jpg'}
                 onAdd={() =>

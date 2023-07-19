@@ -16,15 +16,15 @@
 }
 
 .media{
-    margin-left: 140px;
-    gap: 40px;
+    margin-left: 120px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     list-style: none;
 }
 
 .copy {
-    background-color: #081320;
+    background-color: #100a0a;
     height: 40px;
     display: flex;
     align-items: center;
@@ -71,4 +71,8 @@
     height: 30px;
     width: 35px;
     margin-top: 5px;
+}
+
+.logo {
+    margin-top: 40px;
 }

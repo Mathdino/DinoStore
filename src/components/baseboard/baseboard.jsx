@@ -10,11 +10,11 @@ export default function Baseboard () {
     return (
         <div className={styles.base}>
             <div className={styles.basetotal}>
-                <Image src="/products/logodino.png" width={200} height={200}/>
+                <Image className={styles.logo}src="/products/logodino.png" width={200} height={200}/>
                 <div className={styles.media}>
                      <ul className={styles.contact}>Contatos</ul>
-                    <li><BsInstagram className={styles.insta}/>  Instagram/Dino.Store</li>
-                    <li><BsFacebook className={styles.faceb}/>  Facebook/Dino.Store</li>
+                    <li><BsInstagram className={styles.insta}/> Instagram/Dino.Store</li>
+                    <li><BsFacebook className={styles.faceb}/> Facebook/Dino.Store</li>
                     <li><BsWhatsapp className={styles.wpp}/>  (11) 99999-9999</li>
                 </div>
                <div className={styles.input}>

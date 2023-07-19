@@ -4,7 +4,7 @@ import styles from './logo.module.css'
 export default function Logo(){
     return (
         <div className={styles.logo}>
-            <Image src='/logo.svg' width={60} height={60} />
+            <Image src="/products/logodino.png" width={100} height={100}/>
             <h1 className={styles.name}>DinoStore</h1>
         </div>
     )

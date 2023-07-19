@@ -1,24 +1,26 @@
 .base {
-    background: rgb(27,40,56);
-    background: linear-gradient(0deg, rgba(27,40,56,1) 0%, rgba(27,40,56,1) 48%, rgba(15,22,31,1) 100%);
+    background: rgb(17,71,43);
+    background: linear-gradient(0deg, rgba(17,71,43,1) 0%, rgba(27,110,67,1) 48%, rgba(17,71,43,1) 100%);
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    color: white;
  
 }
 
 .basetotal {
     margin-bottom: 5px;
     display: flex;
-    padding: 30px 35px; 
+    padding: 10px 15px; 
    
 }
 
 .media{
-    margin-left: 60px;
+    margin-left: 140px;
     gap: 40px;
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
 
 .copy {
@@ -29,13 +31,14 @@
     justify-content: center;
 }
 
-.faceb {
+.insta {
     width: 30px;
     height: 30px;
     cursor: pointer;
+    
 }
 
-.insta {
+.faceb {
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -47,19 +50,25 @@
     cursor: pointer;
 }
 
-.titleinsta {
-    color: white;
-}
-
-.list {
-    padding: 10px 30px;
+.contact {
     display: flex;
-    outline: none;
-    flex-direction: column;
-    cursor: pointer;
-    gap: 15px;
-    list-style: none;
+    justify-content: center;
 }
 
-.title {
+.input {
+    margin-left: 180px;
+    display: flex;
+    height: 40px;
+    gap: 15px;
+    margin-top: 100px;
+    justify-content: center;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.send {
+    cursor: pointer;
+    height: 30px;
+    width: 35px;
+    margin-top: 5px;
 }

@@ -23,7 +23,7 @@
 .remove {
     font-style: italic;
     font-size: 14px;
-    color: red;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 .image {

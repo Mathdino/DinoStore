@@ -1,5 +1,5 @@
 .saleCard {
-    background: linear-gradient(180deg, #19587b 0%, #2b87ae 100%);
+    background: #b87830;
     width: 250px;
 }
 
@@ -11,6 +11,7 @@
 .title {
     text-transform: uppercase;
     font-size: 16px;
+    background: black;
 }
 
 .pricecard {

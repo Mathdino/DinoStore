@@ -8,6 +8,7 @@ import Subtitle from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
 import SaleCard from '@/components/cards/saleCard/saleCard'
 import Gamecard from '@/components/cards/gameCard/gameCard'
+import Baseboard from '@/components/baseboard/baseboard'
 
 
 export default function Home() {
@@ -119,6 +120,7 @@ export default function Home() {
             </div>
           </div>
         </Container>
+        <Baseboard />
       </div>
     </>
   )

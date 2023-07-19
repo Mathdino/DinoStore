@@ -1,0 +1,65 @@
+.base {
+    background: rgb(27,40,56);
+    background: linear-gradient(0deg, rgba(27,40,56,1) 0%, rgba(27,40,56,1) 48%, rgba(15,22,31,1) 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ 
+}
+
+.basetotal {
+    margin-bottom: 5px;
+    display: flex;
+    padding: 30px 35px; 
+   
+}
+
+.media{
+    margin-left: 60px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copy {
+    background-color: #081320;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faceb {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.insta {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.wpp {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.titleinsta {
+    color: white;
+}
+
+.list {
+    padding: 10px 30px;
+    display: flex;
+    outline: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 15px;
+    list-style: none;
+}
+
+.title {
+}
